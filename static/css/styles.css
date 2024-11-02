@@ -1,0 +1,65 @@
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif; /* Use system fonts */
+    background-image: url('../images/background.jpg'); /* Change as needed */
+    background-size: cover;
+    color: white;
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+nav {
+    padding: 15px; /* Increase padding around navigation */
+    position: absolute; /* Positioning for navigation */
+    top: 10px; /* Space from the top */
+    left: 10px; /* Align to the left */
+    font-size: 1.2em; /* Increase font size for nav items */
+}
+
+.nav-button {
+    color: white; /* Button text color */
+    text-decoration: none; /* Remove underline */
+    margin-right: 20px; /* Space between buttons */
+    font-weight: bold; /* Bold text */
+}
+
+.nav-button:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+h1 {
+    font-weight: bold; /* Bold for the title */
+    font-size: 2.5em; /* Increase title size */
+    margin-bottom: 20px; /* Space below title */
+    text-align: left; /* Align text to the left */
+}
+
+.container {
+    max-width: 750px; /* Set maximum width */
+    padding: 20px;
+    margin-left: 50px; /* Keep content aligned to the left side */
+    position: relative; /* Set relative position for container */
+    top: 150px; /* Adjust this for spacing below the nav */
+}
+
+.button {
+    margin-top: 40px; /* Adjust this for more or less space */
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
+p {
+    margin-bottom: 30px; /* Space between paragraph and button */
+    font-size: 1.2em; /* Increase font size */
+    line-height: 1.6; /* Increase line height for better readability */
+    letter-spacing: 0.5px; /* Add space between letters */
+    font-weight: 300; /* Lighter font weight */
+    text-align: justify; /* Justify text for a neat look */
+}

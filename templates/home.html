@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/header.css') }}">
+    <title>Deepfake Detection</title>
+</head>
+<body>
+    <nav>
+        <a href="/" class="nav-button">Home</a>
+        <a href="/detect" class="nav-button">Detect</a>
+    </nav>
+
+    <div class="container">
+        <h1>Deepfake</h1>
+        <p>
+            Deepfakes are synthetic media where a person's likeness is convincingly altered,
+            often to create realistic but misleading videos. They leverage deep learning techniques,
+            particularly generative adversarial networks (GANs), to manipulate images and audio,
+            leading to significant implications for misinformation, privacy, and security. 
+            As technology advances, the potential for misuse grows, highlighting the need for 
+            effective detection methods and public awareness about the authenticity of media content.
+        </p>
+        <a href="/detect" class="button">Get Started</a>
+    </div>
+</body>
+</html>
