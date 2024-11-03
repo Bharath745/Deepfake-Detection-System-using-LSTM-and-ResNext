@@ -50,7 +50,7 @@ Follow these steps to set up and run the project on your local machine.
 
 1. Clone the repository:
    ```bash
-   git clone [https://github.com/bharath745/deepfake-detection-system.git](https://github.com/Bharath745/Deepfake-Detection-System-using-LSTM-and-ResNext.git)
+   git clone [https://github.com/Bharath745/Deepfake-Detection-System-using-LSTM-and-ResNext.git]
    cd /Deepfake-Detection-System-using-LSTM-and-ResNext
    
 2. Install the required packages:
