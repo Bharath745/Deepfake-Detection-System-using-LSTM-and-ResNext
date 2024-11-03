@@ -63,7 +63,7 @@ Follow these steps to set up and run the project on your local machine.
 
 4. Open a web browser and navigate to http://127.0.0.1:3000/ to access the application.
 
-### Project Structure
+## Project Structure
 
 ```plaintext
 Deepfake-Detection-System-using-LSTM-and-ResNext/
@@ -80,32 +80,32 @@ Deepfake-Detection-System-using-LSTM-and-ResNext/
 ├── requirements.txt              # Dependencies for the project
 └── README.md                     # Project README file
 ```
-### Usage
+## Usage
 
 1. **Home Page**: Upon visiting the application, users will be presented with the option to upload a video.
 2. **Upload Video**: Users can select a video file and upload it for detection.
 3. **Detection Results**: After uploading, the system processes the video and displays results, showing whether the video is real or fake along with confidence percentages.
 4. **View Extracted Frames**: Users can see extracted frames and facial regions from the video, aiding in visual understanding of the detection process.
 
-### Screenshots
-#### Home Page
+## Screenshots
+### Home Page
 ![image](https://github.com/user-attachments/assets/88a5b63b-1e29-4b9c-bb1f-b24c6138c7a2)
 
 
-#### Video Upload Page
+### Video Upload Page
 ![image](https://github.com/user-attachments/assets/a188c6fb-994c-45ea-b578-e7e0ec1da8a9)
 
 
-#### Result Page
+### Result Page
 ![image](https://github.com/user-attachments/assets/41d4b09c-93b7-4bcd-b2dd-706d408b2fcd)
 
-### Future Work
+## Future Work
 In future iterations, we aim to:
 
 1. **Incorporate Review Content Analysis**: Integrate user feedback and content analysis for deeper insights.
 2. **Explore Social Network Data**: Enhance detection accuracy by extracting relevant social network data.
 3. **Improve Model Efficiency**: Optimize the system for real-time deepfake detection capabilities.
 
-### License
+## License
 This project is licensed under the MIT License. See the `LICENSE` file for details.
 
